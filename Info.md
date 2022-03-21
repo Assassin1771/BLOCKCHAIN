@@ -39,3 +39,33 @@ https://masterthecrypto.com/mainnet-vs-testnet-whats-the-difference/
 
 https://www.rinkeby.io/#stats
 https://etherscan.io/
+
+# METAMASK
+
+Crypto Wallet for Decentralized transactions
+
+1. Store Ether
+2. Send Ether
+3. Receive Ether
+4. Run Daaps
+5. Swap Tokens
+
+### TESTNET FAUCETS
+
+ETH on testnets have no real value, therefore we get ETH from faucets. Ex:- Rinkeby Faucet
+
+## CONTRACT DEPLOYMENT
+
+1. JAVASCRIPT VIRTUAL MACHINE
+
+Transaction executed in Sandbox
+Own memore blockchain
+Ideal for testing
+
+2. INJECTED WEB3
+
+Deploy on mainnet or testnet
+
+3. WEB3 PROVIDER
+
+Connect to remote node or Ethereum Client
