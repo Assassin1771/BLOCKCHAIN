@@ -22,10 +22,20 @@ https://github.com/crytic/evm-opcodes
 ABI : JSON FORMAT
 (Contains a summary of Smart Contract)
 
-# RAR
+# RAR (SM COMPILATION)
 
 1. Contract Bytecode is public and in readable form
 2. Contract doesnt have to be public (But can be, to maintain trust)
 3. Bytecode is immutable
 4. ABI acts as a bridge between applications and smart contract
 5. ABI and Bytecode cant be generated without source code
+
+# NETWORKS
+
+MAINNET : REAL WORLD NETWORK FOR ETHEREUM TRANSACTIONS
+TESTNET : NETWORK ONLY FOR TESTING SMART CONTRACTS AND DAAPS
+
+https://masterthecrypto.com/mainnet-vs-testnet-whats-the-difference/
+
+https://www.rinkeby.io/#stats
+https://etherscan.io/
