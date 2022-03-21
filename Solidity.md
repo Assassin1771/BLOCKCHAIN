@@ -43,3 +43,24 @@ Pure used when we can neither read nor write (Used when only local variables use
 
 View can also be used where we are using pure but not vice versa
 If we are not using any of view/pure and state variables not changing, gives warning
+
+## CONSTRUCTOR
+
+Optional (Default constructor created if not created by user)
+Function only executed once in the beginning
+Can pass arguments also like normal functions
+Used to initialize state variables
+
+## INTEGERS
+
+uint and int
+Always check for Overflow
+
+## OVERFLOW
+
+Batchoverflow and IntegerOverflow cases in 2018
+Issue was large amounts transferred but couldn't track them
+
+## ARRAYS
+
+Fixed and Dynamic Arrays
