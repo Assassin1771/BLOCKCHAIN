@@ -61,6 +61,21 @@ Always check for Overflow
 Batchoverflow and IntegerOverflow cases in 2018
 Issue was large amounts transferred but couldn't track them
 
-## ARRAYS
+## GLOBAL VARIABLES
 
-Fixed and Dynamic Arrays
+Inbuilt keywords and methods
+https://docs.soliditylang.org/en/v0.8.10/units-and-global-variables.html
+
+## VISIBILITY
+
+In Solidity, you can control who has access to the functions and state variables in your contract and how they interact with them. This concept is known as visibility.
+A function’s visibility can be set to external, public, internal or private, while state variables only have three possible visibility modifiers; public, internal or private. The keyword external is not applicable to state variables.
+External
+External functions can only be called from outside the contract in which they were declared.
+Public
+Public functions and variables can be accessed by all parties within and outside the contract. When the visibility is not specified, the default visibility of a function is public.
+Internal
+Functions and variables declared with the internal keyword are only accessible within the contract in which they were declared, although they can be accessed from derived contracts. When visibility is not specified, state variables have the default value of internal.
+Private
+Functions declared with the private keyword are only accessible within the contract in which they were declared. Private functions are also the only functions that cannot be inherited by other functions.
+Note: Setting the visibility of a function or variable to private does not make it invisible on the blockchain. It simply restricts its access to functions within the contract.
