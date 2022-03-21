@@ -8,3 +8,38 @@
 6. Use best practises when working in real world
 
 https://docs.soliditylang.org/en/v0.8.13/
+
+## STATE VARIABLES
+
+Declared at the top of contract
+More state variables means more gas required as always stored in contract storage
+No concept of NULL or NaN here
+If we declare a variable of uint type, default value is 0
+Need to compile and deploy everytime when using Solidity as statistically typed language
+
+## LOCAL VARIABLES
+
+Stored in stack, not on contract/storage
+Used inside functions
+Dont use gas
+Some datatypes are stored in storage like string
+Memory keyword not used at contract level
+
+## FUNCTIONS
+
+Getter and Setter functions
+Getter used to print or return values
+Setter used to update values
+Public keyword defines visibility, that is this function can be used by anyone
+Public state variables dont need getter functions, by default visibility private
+Getter dont require gas, but Setter does, when Setter called it creates a transaction that needs to be mined thus gas required
+
+### VIEW VS PURE
+
+They both are used when we are not changing the state variables (Similarity)
+
+View used when we can only read/get state variable but not write
+Pure used when we can neither read nor write (Used when only local variables used)
+
+View can also be used where we are using pure but not vice versa
+If we are not using any of view/pure and state variables not changing, gives warning
